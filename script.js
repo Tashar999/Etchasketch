@@ -5,7 +5,7 @@ num = 0
 function grid(){
     container.innerHTML = "";
     let num = prompt('How many squares do you want the grid to be?');
-    if (num >= 100 || num <= 0){
+    if (num > 100 || num < 0){
         alert('gotta be 1-100 man')
     } else {
     for (let i = 0; i < num * num; i++) {
