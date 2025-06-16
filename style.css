@@ -1,0 +1,13 @@
+div {
+    height: 100px;
+}
+
+.container {
+    background-color: red;
+}
+
+.container div {
+    height: 100px;
+    background-color: blue;
+    
+}
