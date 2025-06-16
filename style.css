@@ -1,13 +1,18 @@
-div {
-    height: 100px;
-}
-
 .container {
+    display: flex;
     background-color: red;
+    width: 640px;
+    height: 640px;
+    flex-wrap: wrap;
+    margin: auto;
+    
 }
 
 .container div {
-    height: 100px;
+    width: 40px;
+    height: 40px;
     background-color: blue;
-    
+    border: solid;
+    box-sizing: border-box;
+
 }
